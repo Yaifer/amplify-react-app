@@ -29,17 +29,27 @@ app.use(function(req, res, next) {
 /**********************
  * Example get method *
  **********************/
+ const axios = require('axios')
 
-app.get('/coins', (req, res)  => {
-  const coins = [
-    { name: 'Bitcoin', symbol: 'BTC', price_usd: "10000" },
-    { name: 'Ethereum', symbol: 'ETH', price_usd: "400" },
-    { name: 'Litecoin', symbol: 'LTC', price_usd: "150" }
-  ];
-  res.json({
-   coins
-  });
-});
+ app.get('/coins', (req, res) => {
+  // Define base url
+  let apiUrl = `https://api.coinlore.com/api/tickers?start=0&limit=10`;
+
+    // Check if there are any query string parameters
+    // If so, reset the base url to include them
+    if (req.apiGateway && req.apiGateway.event.queryStringParameters) {
+    // Destructuring the query string parameters
+    const { start = 0, limit = 10 } = req.apiGateway.event.queryStringParameters;
+    apiUrl = `https://api.coinlore.com/api/tickers/?start=${start}&limit=${limit}`
+  }
+
+  // Call API and return response
+  axios.get(apiUrl)
+    .then(response => {
+      res.json({  coins: response.data.data });
+    })
+    .catch(err => res.json({ error: err }));
+})
 
 app.get('/item', function(req, res) {
   // Add your code here
@@ -49,7 +59,8 @@ app.get('/item', function(req, res) {
 app.get('/item/*', function(req, res) {
   // Add your code here
   res.json({success: 'get call succeed!', url: req.url});
-});
+  }
+);
 
 /****************************
 * Example post method *
@@ -57,12 +68,12 @@ app.get('/item/*', function(req, res) {
 
 app.post('/item', function(req, res) {
   // Add your code here
-  res.json({success: 'post call succeed!', url: req.url, body: req.body})
+  res.json({success: 'post call succeed!', url: req.url, body: req.body});
 });
 
 app.post('/item/*', function(req, res) {
   // Add your code here
-  res.json({success: 'post call succeed!', url: req.url, body: req.body})
+  res.json({success: 'post call succeed!', url: req.url, body: req.body});
 });
 
 /****************************
