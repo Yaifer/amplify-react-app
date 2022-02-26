@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/amplify-amp/static/css/main.d1b05096.chunk.css",
-    "main.js": "/amplify-amp/static/js/main.af509820.chunk.js",
-    "main.js.map": "/amplify-amp/static/js/main.af509820.chunk.js.map",
-    "runtime~main.js": "/amplify-amp/static/js/runtime~main.3720b729.js",
-    "runtime~main.js.map": "/amplify-amp/static/js/runtime~main.3720b729.js.map",
-    "static/js/2.964a0cab.chunk.js": "/amplify-amp/static/js/2.964a0cab.chunk.js",
-    "static/js/2.964a0cab.chunk.js.map": "/amplify-amp/static/js/2.964a0cab.chunk.js.map",
-    "static/js/3.dba27cfa.chunk.js": "/amplify-amp/static/js/3.dba27cfa.chunk.js",
-    "static/js/3.dba27cfa.chunk.js.map": "/amplify-amp/static/js/3.dba27cfa.chunk.js.map",
-    "index.html": "/amplify-amp/index.html",
-    "precache-manifest.835361433b58691aa76416274c22abbc.js": "/amplify-amp/precache-manifest.835361433b58691aa76416274c22abbc.js",
-    "service-worker.js": "/amplify-amp/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/amplify-amp/static/css/main.d1b05096.chunk.css.map"
+    "main.css": "/amplify-react-app/static/css/main.d1b05096.chunk.css",
+    "main.js": "/amplify-react-app/static/js/main.af509820.chunk.js",
+    "main.js.map": "/amplify-react-app/static/js/main.af509820.chunk.js.map",
+    "runtime~main.js": "/amplify-react-app/static/js/runtime~main.f881f480.js",
+    "runtime~main.js.map": "/amplify-react-app/static/js/runtime~main.f881f480.js.map",
+    "static/js/2.964a0cab.chunk.js": "/amplify-react-app/static/js/2.964a0cab.chunk.js",
+    "static/js/2.964a0cab.chunk.js.map": "/amplify-react-app/static/js/2.964a0cab.chunk.js.map",
+    "static/js/3.dba27cfa.chunk.js": "/amplify-react-app/static/js/3.dba27cfa.chunk.js",
+    "static/js/3.dba27cfa.chunk.js.map": "/amplify-react-app/static/js/3.dba27cfa.chunk.js.map",
+    "index.html": "/amplify-react-app/index.html",
+    "precache-manifest.3421fdffab8e1e7bfdc9a2f5ad8d24fb.js": "/amplify-react-app/precache-manifest.3421fdffab8e1e7bfdc9a2f5ad8d24fb.js",
+    "service-worker.js": "/amplify-react-app/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/amplify-react-app/static/css/main.d1b05096.chunk.css.map"
   }
 }
