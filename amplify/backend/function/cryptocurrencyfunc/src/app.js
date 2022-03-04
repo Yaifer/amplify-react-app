@@ -61,6 +61,15 @@ app.get('/item/*', function(req, res) {
   res.json({success: 'get call succeed!', url: req.url});
   }
 );
+app.get(
+  "/born", async (req, res) => {
+    try {const data = await axios.get("https://api.github.com/users/Yaifer");
+        res.json({bornOnInfo: data.data});
+    }
+
+    catch (err) { res.json({ error: err})}   
+  }
+); 
 
 /****************************
 * Example post method *
