@@ -1,5 +1,5 @@
 // Import useState and useEffect hooks from React
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 
 // Import the API category from AWS Amplify
 import { API } from 'aws-amplify'
@@ -66,7 +66,7 @@ const App = () => {
           ))
           
         }
-          
+        <GitHubBornOn /> 
 
       </div>
     }
