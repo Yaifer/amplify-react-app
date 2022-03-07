@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react'
 import { API } from 'aws-amplify'
 
 import './App.css';
+import { GitHubBornOn } from './GitHubBornOn'
 
 const App = () => {
 
@@ -61,13 +62,18 @@ const App = () => {
               <h2>{coins.name} - {coins.symbol}</h2>
               <h5>${coins.price_usd}</h5>
             </div>
+            
           ))
+          
         }
+          
+
       </div>
     }
-
+    
       
     </div>
+    
   );
 }
 
