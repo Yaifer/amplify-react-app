@@ -26,8 +26,9 @@ const App = () => {
   const fetchCoins = async () => {
 
     setLoading(true);
-
+    console.log(input)
     const { limit, start } = input
+    console.log(limit,start)
     const data = await API.get('cryptoapi', `/coins?limit=${limit}&start=${start}`);
     updateCoins(data.coins);
 
@@ -66,12 +67,12 @@ const App = () => {
           ))
           
         }
-        <GitHubBornOn /> 
 
       </div>
     }
     
-      
+    <GitHubBornOn />
+    
     </div>
     
   );
