@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/amplify-react-app/static/css/main.d1b05096.chunk.css",
-    "main.js": "/amplify-react-app/static/js/main.af509820.chunk.js",
-    "main.js.map": "/amplify-react-app/static/js/main.af509820.chunk.js.map",
-    "runtime~main.js": "/amplify-react-app/static/js/runtime~main.f881f480.js",
-    "runtime~main.js.map": "/amplify-react-app/static/js/runtime~main.f881f480.js.map",
-    "static/js/2.964a0cab.chunk.js": "/amplify-react-app/static/js/2.964a0cab.chunk.js",
-    "static/js/2.964a0cab.chunk.js.map": "/amplify-react-app/static/js/2.964a0cab.chunk.js.map",
-    "static/js/3.dba27cfa.chunk.js": "/amplify-react-app/static/js/3.dba27cfa.chunk.js",
-    "static/js/3.dba27cfa.chunk.js.map": "/amplify-react-app/static/js/3.dba27cfa.chunk.js.map",
+    "main.css": "/amplify-react-app/static/css/main.073c9b0a.css",
+    "main.js": "/amplify-react-app/static/js/main.a87f068e.js",
+    "static/js/512.24cab64b.chunk.js": "/amplify-react-app/static/js/512.24cab64b.chunk.js",
     "index.html": "/amplify-react-app/index.html",
-    "precache-manifest.3421fdffab8e1e7bfdc9a2f5ad8d24fb.js": "/amplify-react-app/precache-manifest.3421fdffab8e1e7bfdc9a2f5ad8d24fb.js",
-    "service-worker.js": "/amplify-react-app/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/amplify-react-app/static/css/main.d1b05096.chunk.css.map"
-  }
+    "main.073c9b0a.css.map": "/amplify-react-app/static/css/main.073c9b0a.css.map",
+    "main.a87f068e.js.map": "/amplify-react-app/static/js/main.a87f068e.js.map",
+    "512.24cab64b.chunk.js.map": "/amplify-react-app/static/js/512.24cab64b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a87f068e.js"
+  ]
 }
